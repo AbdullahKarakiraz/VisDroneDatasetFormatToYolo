@@ -2,7 +2,7 @@ import os
 import glob
 import cv2
 # index0: x coordinat, index1: y coordinat, index2: widht, index3: height, index5: category 
-annotations_path = glob.glob("C:\\Users\\Asus\\Desktop\\VisDrone2019-DET-val\\annotations\\*.txt")
+annotations_path = glob.glob("path*.txt")
 
 imageFileName = "images"
 jpg = "jpg"
